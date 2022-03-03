@@ -3,11 +3,22 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-}
+  price = 1000;
 
+  constructor() {
+    // this.price = this.add100();
+  }
+
+  add100() {
+    let number = 10;
+    number = number + 100;
+    this.price = number;
+    // return number;
+  }
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.
