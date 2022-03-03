@@ -5,20 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent {
-  price = 1000;
-
-  constructor() {
-    // this.price = this.add100();
-  }
-
-  add100() {
-    let number = 10;
-    number = number + 100;
-    this.price = number;
-    // return number;
-  }
-}
+export class AppComponent {}
 
 /*
 Copyright Google LLC. All Rights Reserved.
